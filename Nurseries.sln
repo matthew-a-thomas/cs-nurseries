@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nurseries", "Nurseries\Nurseries.csproj", "{62D73171-B928-4404-BF34-E65253EA252F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nurseries.Tests", "Nurseries.Tests\Nurseries.Tests.csproj", "{8C8BF38F-494A-4C24-A0CA-A205D7D1D143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{3A7F8FA7-E16D-44C3-8A5E-1CE2EC317CA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D73171-B928-4404-BF34-E65253EA252F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D73171-B928-4404-BF34-E65253EA252F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D73171-B928-4404-BF34-E65253EA252F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D73171-B928-4404-BF34-E65253EA252F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8BF38F-494A-4C24-A0CA-A205D7D1D143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8BF38F-494A-4C24-A0CA-A205D7D1D143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8BF38F-494A-4C24-A0CA-A205D7D1D143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8BF38F-494A-4C24-A0CA-A205D7D1D143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7F8FA7-E16D-44C3-8A5E-1CE2EC317CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7F8FA7-E16D-44C3-8A5E-1CE2EC317CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7F8FA7-E16D-44C3-8A5E-1CE2EC317CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7F8FA7-E16D-44C3-8A5E-1CE2EC317CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
