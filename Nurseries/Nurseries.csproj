@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk" InitialTargets="AssignInformationalVersion">
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <Deterministic>true</Deterministic>
@@ -24,13 +24,13 @@
         <IsPackable>true</IsPackable>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     </PropertyGroup>
-    
+
     <ItemGroup>
         <None Include="..\README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
-    
+
     <ItemGroup>
-        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
     </ItemGroup>
 
     <Target Name="AssignInformationalVersion">
